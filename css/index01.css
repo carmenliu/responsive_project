@@ -1,0 +1,149 @@
+*{
+	margin: 0px auto;
+	padding: 0px auto;
+	font-size: 15px;
+}
+ 
+
+@media (min-width: 1200px) {
+	.container{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:1000px ) {
+	.collapse.navbar-collapse{
+		display: none !important;
+	}
+		.navbar-toggle{
+			display: block;
+		}
+		.navbar-header{
+		
+		float: none;
+		}
+	}	
+		.collapse.navbar-collapse.in{
+			
+		display:block !important;
+	}
+		/*.navbar-toggle{
+			margin-top: 18px;
+		}*/
+	.navbar{
+		margin-bottom: 0px;
+	}
+
+#nav{
+	height: 44px;
+	background-color: #8C784E;
+}
+.navmain{
+	width: 1200px;
+	height: 44px;
+	
+}
+.navmainLeft{
+	width: 711px;
+	float: left;
+}
+.navmainLeft span{
+	line-height: 44px;
+	 color: #e1d2b2;
+	  
+	 
+}
+.navmainright{
+	float:right;
+	line-height: 44px;
+	box-sizing: content-box;
+
+
+	width: 192.17px;
+	height: 44px;
+}
+.fl{
+	
+	color: #E1D2B2;
+	float:left;
+}
+.icon{
+	width: 138px;
+	height: 28px;
+
+	float: left;
+	margin:0px 0 0 5px;
+
+}
+.icon_mor{
+	    background-position: 0 0;
+}
+.icon_qone{
+	   background-position: 0 -52px;
+}
+.icon_sina{
+	       background-position: 0 -104px;
+}
+.icon_tqq{
+	       background-position: 0 -260px;
+}
+.icon_renren{
+	     background-position: 0 -208px;
+}
+.icon_weixin{
+	        background-position: 0 -1612px;
+}  
+.icon_one{
+	font-size: 12px;
+    padding-left: 17px;
+    line-height: 16px;
+    height: 16px;
+  	background-image: url(../img/icons_0_16.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 6px 6px 6px 0;
+  
+}
+
+/*主导航*/
+.navbar-default{
+	height: 91px;
+	background-color: #FFFFFF;
+}
+/*logo高*/
+.navbar-brand{
+	height: 82px;
+}
+.navbar-brand img{
+	margin-top: -10px;
+   margin-left: -20px;
+
+}
+.navbar-nav{
+	margin-right: 20px;
+}
+
+.active{
+	height: 91px;      
+	
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    height: 89px;
+    line-height: 60px;
+    background-color: #FFFFFF;
+   
+ }
+
+#nav_n li a{
+	margin-left: 20px;
+}
+.banner{
+	height: 447px;
+}
+.carousel-inner{
+	height: 447px;
+	width: 100%;
+}
+.carousel-indicators {
+    bottom: 80px;
+}
